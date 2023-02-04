@@ -10,7 +10,7 @@ public class TestThymeleaf {
         WelcomeMessage welcome = new WelcomeMessage("hello world");
         ctx.put("welcome", welcome);
 
-        Student students[] = {
+        Student[] students = {
                 new Student(1, "Ivan"),
                 new Student(2, "Maria"),
                 new Student(3, "Nikola")

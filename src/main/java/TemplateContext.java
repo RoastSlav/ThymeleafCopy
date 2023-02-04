@@ -11,4 +11,8 @@ public class TemplateContext {
     public Object get(String name) {
         return context.get(name);
     }
+
+    public void remove(String name) {
+        context.remove(name);
+    }
 }
